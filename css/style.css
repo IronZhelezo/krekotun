@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    font-family: Arial;
+}
+body {
+    background: white none repeat scroll 0 0;   
+    cursor:  url("../img/arrow.png"), auto;
+    padding: 30px 20px;
+    margin: 0;
+}
+a:hover , label:hover , .form input , .reg:hover { 
+    cursor:  url("../img/hand.png"), auto;
+}
+img {
+    border: 0 none;
+}
+/*article*/
+.article {
+    width: 595px;
+    font-size: 11px;
+    color: #000;
+    font-weight: bold;
+    height: 360px
+}
+.article h1 {
+    font-size: 20px;
+    color: #000;
+    margin-top: -2px;
+}
+.article p {   
+    line-height: 19px;
+    margin: -3px 3px;
+}
+.mountain {
+    width: 200px;
+    min-height: 167px;
+    font-size: 11px;
+    color: #686868;
+    float: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #efefef;
+    margin: 0 10px 10px 0;
+}
+div.mountain p {
+    margin: 0 0 3px;
+}
+p.title_img {
+    padding-left: 10px;
+    line-height: 10px;
+    font-weight: normal;
+}
+.blue {
+    color: #005ab7;
+}
+.blue:hover {
+    color: #f50017;
+}
+
+/*menu*/
+.menu {
+    border-top: 2px solid #d5d5d5;
+    border-bottom: 2px solid #d5d5d5;
+    min-height: 320px;
+    font-size: 12px;
+    color: #404040;
+}
+.menu h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.normal , .hover{
+    width: 306px;
+    display: inline-block;
+    margin: 0;
+}
+.norm , .hov{
+    padding: 4px 0 5px; 
+    background: rgba(0, 0, 0, 0) url("../img/sprite.png") no-repeat scroll;
+}
+.norm a , .hov a{
+    color: #404040;
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+}
+.one {
+    background-position: -19px -15px;
+}
+.two {
+    background-position: -19px -40px;
+}
+.three {
+    background-position: -19px -65px;
+}
+.for {
+    background-position: -19px -90px;
+}
+.five {
+    background-position: -19px -115px;
+}
+.six {
+    background-position: -19px -140px;
+}
+.seven {
+    background-position: -19px -165px;
+}
+.eight {
+    background-position: -19px -190px;
+}
+.nine {
+    background-position: -19px -215px;
+}
+.ten {
+    background-position: -19px -240px;
+}
+.normal:hover div{
+    opacity: 0.5;
+}
+.normal .norm:hover {
+    opacity: 1;
+}
+.hov {
+    opacity: 0.5;
+}
+.hov:hover {
+    opacity: 1;
+}
+/*blocks*/
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PTS55F.ttf") format("truetype");
+}
+.blocks {
+    padding: 0 22px 0 32px;
+    text-align: center;
+    min-height: 280px;
+}
+.block {
+    width: 200px;
+    height: 254px;
+    display: inline-block;
+    margin: 0 25px 25px 0;
+    top: 0;
+}
+.block h1 {
+    font-family: "PT Sans";
+    font-size: 15px;
+    color: #0076d1;
+    margin: 26px 6px 4px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+}
+.block p {
+    margin-top: 9px;
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+    float: left;    
+    letter-spacing: 0.2px;
+}
+/*search*/
+.search {
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    height: 150px;
+    position: relative;
+}
+.search input {
+    background: rgba(0, 0, 0, 0) url("../img/search_sprite.png") no-repeat scroll -1px -3px;
+    float: left;
+    height: 41px;
+    margin-top: 79px;
+    width: 0px;
+    border: none;
+    display: block;
+    position: absolute;
+    padding-left: 46px;
+    cursor:  url("../img/hand.png"), auto;
+    z-index: 1;
+    transition: all 0.2s linear 0s;
+}
+ .search input:focus{
+    background-image: none;
+    border: 2px solid #4693b6;
+    color: #6c6c6c;
+    cursor: text;
+    font-size: 20px;
+    height: 35px;
+    margin-left: 39px;
+    margin-top: 81px;
+    padding-left: 7px;
+    position: absolute;
+    width: 188px;
+ }
+ .close {
+    background: rgba(0, 0, 0, 0) url("../img/search_sprite.png") no-repeat scroll -1px -55px;
+    margin-top: 81px;
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    z-index: 0;
+    cursor:  url("../img/hand.png"), auto;
+ }  
+ /*form*/
+ .form {
+    margin-top: 27px
+ }
+ .form p {
+    font-size: 14px;
+    color: #909090;
+    margin: 0 ;
+ }
+ .form input, .form textarea {
+    background-color: #fff;
+    border: 2px solid #bbe2f4;
+    border-radius: 5px;
+    color: #484848;
+    font-size: 14px;
+    margin: 6px 0 10px;
+    padding-left: 10px;
+}
+ .form input:focus , .form textarea:focus , .form  input.reg:active {
+    background-clip: padding-box, border-box;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(#bbe2f4, #77b1cd);
+    background-origin: padding-box, border-box;
+    border: 2px solid transparent;
+    box-shadow: 0 1px 2px rgba(0, 76, 111, 0.5) inset;
+    outline: medium none;
+}
+ .form input {
+    height: 29px;
+    width: 231px;
+}
+ .form textarea {
+    height: 137px;
+    padding: 6px 9px;
+    width: 332px;
+    resize: vertical;
+ }
+ .radio label {
+    background: rgba(0, 0, 0, 0) url("../img/radio_sprite.png") no-repeat scroll -100px 0;
+    color: rgba(0,0,0,.2);
+    font-size: 14px;
+    padding: 0 17px 0 20px;
+}
+ .radio label:hover {
+    background: rgba(0, 0, 0, 0) url("../img/radio_sprite.png") no-repeat scroll -205px 0;
+    color: rgba(0,0,0,.6);
+}
+ .radio input:checked + label {
+    background: rgba(0, 0, 0, 0) url("../img/radio_sprite.png") no-repeat scroll 1px 0;
+    color: rgba(0,0,0,1);
+}
+ .radio input {
+    display: none;
+ }
+ .form  input.reg {
+    height: 32px;
+    margin: 17px 0;
+    width: 124px;
+    padding: 0 19px;
+    color: #6c6c6c;
+    background-image: linear-gradient(#f5f5f5, #dadada);
+ }
+ .form  input.reg:hover {
+    background-image: linear-gradient(#f5f5f5, #c8c8c8);
+ }
+div.form  input.reg:active {
+    background-image: linear-gradient(#dadada, #f5f5f5), linear-gradient(#bbe2f4, #77b1cd);
+}
